@@ -9,7 +9,7 @@ def bubbleSort(arr):
             if(arr[j]>arr[j+1]):
                 arr[j],arr[j+1]= arr[j+1],arr[j]
     
-    print(arr)
+    return (arr)
 
 arr  = [7,3,1,2,6]
-bubbleSort(arr)
+print(bubbleSort(arr))
